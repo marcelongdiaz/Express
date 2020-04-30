@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelongdiaz/Express.git"
+  },
+  "keywords": [
+    "Express",
+    "Intro"
+  ],
+  "author": "Marcelo Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcelongdiaz/Express/issues"
+  },
+  "homepage": "https://github.com/marcelongdiaz/Express#readme"
+}
