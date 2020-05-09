@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/marcelongdiaz/Express/issues"
   },
-  "homepage": "https://github.com/marcelongdiaz/Express#readme"
+  "homepage": "https://github.com/marcelongdiaz/Express#readme",
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "express": "^4.17.1"
+  }
 }
