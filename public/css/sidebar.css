@@ -1,0 +1,83 @@
+#sidebar {
+    background: #1a2938;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding: 30px 10px;
+    transition: 0.3s ease;
+}
+#sidebar ul{
+    list-style-type: none;
+    padding: 0;
+}
+#sidebar ul li{
+    display: block;
+    padding: 10px 10px 10px 10px;
+}
+#sidebar ul li a{
+    cursor: pointer;
+}
+
+#sidebar ul li a span{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+    display: inline-block;
+    max-width: 200px;
+    transition: 0.3s ease;
+    opacity: 1;
+    max-height: 25px;
+    overflow: hidden;
+    padding-top: 5px;
+
+}
+#sidebar ul li a i{
+    color: whitesmoke;
+
+}
+.slide-controller{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 50%;
+    right: -20px;
+    transform: translateY(-50%);
+    background-color: #213952;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slide-controller a{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.slide-controller a i{
+    color: white;
+    transition: 0.5s;
+}
+.disappear{
+    max-width: 0px!important;
+    padding: 0px!important;
+    margin: 0px!important;
+    /* position: absolute!important; */
+    opacity: 0!important;
+}
+.rotate{
+    transform: rotate(180deg);
+}
+.isActive {
+    color: #41B883!important;
+}
+.isActive span{
+    color: #41B883!important;
+}
+.isActive i{
+    color: #41B883!important;
+}
+#sidebar ul li a:hover span, #sidebar ul li a:hover i{
+    color: #41B883;
+}

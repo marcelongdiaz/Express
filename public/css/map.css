@@ -1,0 +1,17 @@
+.worldmap{
+    width: 100%;
+    height: 700px;
+
+}
+.worldmap path{
+    fill: #1a2938cb;
+    stroke: white;
+    stroke-width: 4px;
+    transition: all 0.5s ease;
+}
+.worldmap path[data-id="PH"]{
+    fill: #e00606bb;
+}
+.worldmap path:hover{
+    fill: #1a2938;
+}
