@@ -4,12 +4,15 @@ const path = require('path');
 const port = 3000;
 var ejs = require('ejs');
 
-app.use('/public',express.static(path.join(__dirname,'public')))
+app.use(express.static(__dirname + '/public'));
 app.engine('ejs', require('ejs').renderFile);
 app.set('view engine', 'ejs');
 app.get('/home', (req, res) => {
     res.render('partials/home');
 });
+app.get('/:page', (req, res) =>{
+  res.render('partials/'+req.params.page);
+})
 app.use(function(req, res, next){
     res.status(404);
   

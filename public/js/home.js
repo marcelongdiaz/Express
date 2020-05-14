@@ -7,7 +7,7 @@ $(document).ready(function () {
         windows.location = hostname + "/" + path;
     });
 
-    fetchJSON('http://localhost:3000/public/json/countryActives.json');
+    fetchJSON('/json/countryActives.json');
     console.log(actives)
     
 });
